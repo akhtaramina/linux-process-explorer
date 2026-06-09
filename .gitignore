@@ -1,0 +1,8 @@
+# Compiled binary
+process_explorer
+
+# Object files
+src/*.o
+
+#Nano swap files
+*.swp
