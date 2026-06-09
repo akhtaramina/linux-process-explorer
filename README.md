@@ -47,14 +47,17 @@ make
 
 ## Debug
 
+```
 gdb ./process_explorer
 (gdb) break main
 (gdb) run
 (gdb) next
 (gdb) print pid
+```
 
 ## Project Structure
 
+```
 linux-process-explorer/
 ├── src/
 │   ├── main.cpp            → signal handling, fork/exec/pipe, display
@@ -63,6 +66,8 @@ linux-process-explorer/
 │   └── process_manager.cpp → /proc directory walker
 ├── Makefile
 └── README.md
+```
+
 
 ## Environment
 
